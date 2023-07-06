@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommercewebsite</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+</head>
+<body>
+    <section id="header">
+
+        <img src="../images/logo.jpg" alt="error" width="100px" height="80px">
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html"><i class="fa-solid fa fa-house-user"></i></i></a></li>
+                <li><a href="shop.html"> <i class="fas fa-store"></i></a></li>
+                <li><a  href="contact.html"><i class="fa-solid  fa fa-phone"></i></a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></i></a></li>
+                <li><a  href="about.html"> about us</a></li>
+                <li><a href="about.html">  <button class="button" style="vertical-align:middle"><span>Login/Sign-up </span></button></a></li>
+            </ul>
+        </div>
+    </section>
+ <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="../images/HUFTPuppyPlayTeddyDogToy.webp" width="100%"
+         id="mainimg" alt="">
+         <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="../images/teddy2.webp" class="small-img" width="100%" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="../images/teddy3.webp" class="small-img" width="100%" alt="">
+            </div>
+            
+         </div>
+    </div>
+    <div class="single-pro-details">
+        <div id="cont">
+        <h6>home</h6>
+        <h4>
+            HUFT Puppy Play Teddy Dog Toy</h4>
+            
+           <div id="cont2" ><h6 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti commodi dolorum officia ipsam accusamus a dicta voluptate optio hic reiciendis itaque obcaecati soluta dignissimos consectetur nesciunt rerum, quam libero eius nemo quibusdam dolore! Eum placeat, voluptatibus nostrum sequi nihil in?</h6></div> 
+        
+           <h2>$20</h2>
+            <select>
+                <option>select size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">add to cart</button>
+            <span></span>
+        </div>
+    </div>
+ </section>
+    <hr>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="../images/logo.jpg" alt="error" height="80px">
+            <h4>Contact Us</h4>
+            <p><strong>Address:</strong>: 365 Rajpur Road,Street 36, Dehradun, India</p>
+            <p><strong>phone:</strong>+91 8630017906/+91 9760849383</p>
+            <p><strong>hours:</strong> 10:00-19:00 hrs</p>
+        
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">about us</a><br>
+        <a href="#">delivery information</a><br>
+        <a href="#">contact us</a><br>
+        <a href="#">Terms And Conditions</a><br>
+        <a href="#">privacy policy</a><br>
+    </div>
+    <div class="col">
+        <h4>My account</h4>
+        <a href="#">Sign In</a> <br>
+        <a href="#">View cart</a><br>
+        <a href="#">My Wishlist</a><br>
+        <a href="#">Track my order</a><br>
+        <a href="#">Help</a><br>
+    </div>
+    <div class="col install">
+        <h4>Install app</h4>
+        <p>From App store or Google Play</p>
+        <div class="row">
+            <img src="../images/playappstore.png" alt="" height="80px">
+        </div>
+            <p>Secured payments</p>
+            <img src="../images/cards.png" alt="" height="60px"> 
+    </div>
+    </footer>
+    <script>
+        var mainimg=document.getElementById("mainimg");
+        var smallimg=document.getElementsByClassName("small-img");
+        smallimg[0].onclick= function(){
+         mainimg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick= function(){
+         mainimg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick()= function(){
+         mainimg.src=smallimg[2].src;
+        }
+    </script>
+</body>
+</html>
